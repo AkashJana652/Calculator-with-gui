@@ -1,28 +1,4 @@
 
-'''from tkinter import *
-
-root = Tk()
-
-entry = Entry(root, borderwidth=3).grid(row=2, column=0)
-
-label1 = Label(root, text="Hello, Please enter your name.")
-label1.grid(row=1, column=0)
-
-
-def my_click():
-    label2 = Label(root, text="Happy coding, " + entry.get())
-    label2.grid()
-
-
-button = Button(root, text="Submit", padx=30,
-                fg="white", bg="black", command=my_click)
-button.grid(row=3, column=0)
-
-root.geometry("300x200")
-root.resizable(False, True)
-root.mainloop()'''
-
-
 from tkinter import *
 
 root = Tk()
@@ -192,3 +168,4 @@ button_equal.grid(row=1, column=3)
 
 
 root.mainloop()
+
